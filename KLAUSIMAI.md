@@ -5,3 +5,5 @@
 ## Kaip rašomas žodis "betkoks" ar "bet koks"?
 
 ## Trečias pavyzdys???
+
+## test klausimas
