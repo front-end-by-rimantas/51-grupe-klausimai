@@ -1,5 +1,1 @@
-## Trečias pavyzdys???
-
-## Test klausimas?
-
-## Kaip rašomas žodis "betkoks" ar "bet koks"?
+## Ar galima parasyti script kad atidarytu dead-server per kitoki browser kuris nera default kompiuterio browser
