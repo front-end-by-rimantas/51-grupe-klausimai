@@ -1,3 +1,7 @@
+## kaip padaryti kad, link'as atsidarytu naujame tab?
+
+## Kada ir kam naudojamas section ir kuo jis skiriasi nuo div?
+
 ## Kaip kurti VSC sablonus?
 
 ## Kokia shortcut kombinacija naudojama, jei pvz noriu vienu metu, pakoreguoti visu href elemetu reiksmes?
