@@ -4,4 +4,4 @@
 
 ## Kaip padaryti button, kad paspaudus pasikeistų jo išvaizda. 
 
-## Kaip pridėti link'a prie <button> tag?
+## Kaip pridėti link'a prie button tag?
