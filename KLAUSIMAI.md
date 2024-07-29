@@ -83,7 +83,7 @@ for (let i=0; i <= prekes.length; i++){
 ```
 
 ## console error: 
-
+```js
 1
 3
 6
@@ -109,3 +109,4 @@ TypeError: Cannot read properties of undefined (reading 'prekiuKiekis')
 
 Node.js v20.15.0
 Failed running './kintamieji/object.js'
+```
