@@ -5,76 +5,79 @@ Krepšelio suma gaunasi 19.4546000000, o uždėjus  math.floor() suapvalina iki 
 
 ## Pabandžiau užbėgti už akių ir padaryti cikla prekių krepšelio skaičiavimui. Atrodo ciklas suveikia, consolėje sulogina skaičiavimus teisingai. bet meta error? pridedu kodą
 
-const prekes = [
-    {
-        prekesPavadinimas: 'Agurkas',
-        prekesKaina: 1.99,
-        prekiuKiekis: 1,
-        prekesSvoris: 300,
-    },
-    {
-        prekesPavadinimas: 'Saslykas',
-        prekesKaina: 8.99,
-        prekiuKiekis: 2,
-        prekesSvoris: 1000,
-    },
-    {
-        prekesPavadinimas: 'Ryziai',
-        prekesKaina: 3.99,
-        prekiuKiekis: 3,
-        prekesSvoris: 1500,
-    },
-    {
-        prekesPavadinimas: 'Krn-brg Blanch',
-        prekesKaina: 2.19,
-        prekiuKiekis: 24,
-        prekesSvoris: 330,
-    },
-    {
-        prekesPavadinimas: 'Jaggermeister',
-        prekesKaina: 17.99,
-        prekiuKiekis: 2,
-        prekesSvoris: 700,
-    },
-    {
-        prekesPavadinimas: 'Tepalas',
-        prekesKaina: 28.49,
-        prekiuKiekis: 5,
-        prekesSvoris: 1000,
-    },
-    {
-        prekesPavadinimas: 'Atsuktuvas',
-        prekesKaina: 50,
-        prekiuKiekis: 3,
-        prekesSvoris: 100,
-    },
-    {
-        prekesPavadinimas: 'Anglys',
-        prekesKaina: 10.49,
-        prekiuKiekis: 2,
-        prekesSvoris: 2000,
-    },
-    {
-        prekesPavadinimas: 'Ziebtuvelis',
-        prekesKaina: 0.99,
-        prekiuKiekis: 3,
-        prekesSvoris: 30,
-    },
-    {
-        prekesPavadinimas: 'Maiselis',
-        prekesKaina: 0.19,
-        prekiuKiekis: 2,
-        prekesSvoris: 5,
-    },
-];
+console.log('----------------------------------------------');
+// const prekes = [
+//     {
+//         prekesPavadinimas: 'Agurkas',
+//         prekesKaina: 1.99,
+//         prekiuKiekis: 1,
+//         prekesSvoris: 300,
+//     },
+//     {
+//         prekesPavadinimas: 'Saslykas',
+//         prekesKaina: 8.99,
+//         prekiuKiekis: 2,
+//         prekesSvoris: 1000,
+//     },
+//     {
+//         prekesPavadinimas: 'Ryziai',
+//         prekesKaina: 3.99,
+//         prekiuKiekis: 3,
+//         prekesSvoris: 1500,
+//     },
+//     {
+//         prekesPavadinimas: 'Krn-brg Blanch',
+//         prekesKaina: 2.19,
+//         prekiuKiekis: 24,
+//         prekesSvoris: 330,
+//     },
+//     {
+//         prekesPavadinimas: 'Jaggermeister',
+//         prekesKaina: 17.99,
+//         prekiuKiekis: 2,
+//         prekesSvoris: 700,
+//     },
+//     {
+//         prekesPavadinimas: 'Tepalas',
+//         prekesKaina: 28.49,
+//         prekiuKiekis: 5,
+//         prekesSvoris: 1000,
+//     },
+//     {
+//         prekesPavadinimas: 'Atsuktuvas',
+//         prekesKaina: 50,
+//         prekiuKiekis: 3,
+//         prekesSvoris: 100,
+//     },
+//     {
+//         prekesPavadinimas: 'Anglys',
+//         prekesKaina: 10.49,
+//         prekiuKiekis: 2,
+//         prekesSvoris: 2000,
+//     },
+//     {
+//         prekesPavadinimas: 'Ziebtuvelis',
+//         prekesKaina: 0.99,
+//         prekiuKiekis: 3,
+//         prekesSvoris: 30,
+//     },
+//     {
+//         prekesPavadinimas: 'Maiselis',
+//         prekesKaina: 0.19,
+//         prekiuKiekis: 2,
+//         prekesSvoris: 5,
+//     },
+// ];
 
+// // let index = 0;
 
-let totalKiekis = 0;
-for (let i=0; i <= prekes.length; i++){
-    totalKiekis = totalKiekis + prekes[i]['prekiuKiekis'];
-    console.log (totalKiekis);
+// let totalKiekis = 0;
+// console.log ('----------------------------------------------');
+// for (let i=0; i <= prekes.length; i++){
+//     totalKiekis = totalKiekis + prekes[i]['prekiuKiekis'];
+//     console.log (totalKiekis);
    
-}
+// }
 
 ## console error: 
 
