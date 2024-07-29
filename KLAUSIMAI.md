@@ -5,7 +5,7 @@ Krepšelio suma gaunasi 19.4546000000, o uždėjus  math.floor() suapvalina iki 
 
 ## Pabandžiau užbėgti už akių ir padaryti cikla prekių krepšelio skaičiavimui. Atrodo ciklas suveikia, consolėje sulogina skaičiavimus teisingai. bet meta error? pridedu kodą
 
-'''js
+```js
 console.log('----------------------------------------------');
 const prekes = [
     {
@@ -80,7 +80,7 @@ for (let i=0; i <= prekes.length; i++){
    
 }
 
-'''
+```
 
 ## console error: 
 
