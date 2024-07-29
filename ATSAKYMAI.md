@@ -1,3 +1,7 @@
+# ATS
+
+## Kodel transition veikia ant margin-bottom bet neveikia ant bottom?
+
 ## Kai užduodi klausimą ar reikia duoti viso projekto link ar tik pačio puslapio?
 
 ## Kaip jeigu body background yra linear-gradient ir uzdedamas background image and main elemento su visai kitokiom spalvom ir norima sulyginti body fono ir main'o backgroundo spalvas neprarandant paveiksliuko?
