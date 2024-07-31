@@ -1,7 +1,7 @@
 # 51 grupės klausimai
 
 
-## Padariau funkciją apie kurią kalbėjom per paskaitą, bet ji visada kartojasi nors ir nera vardo.
+## Padariau funkciją apie kurią kalbėjom per paskaitą, bet ji visada kartojasi nors ir neatitinka vardas.
 
 ```js
 
