@@ -1,7 +1,7 @@
 # 51 grupės klausimai
 
 ## ar teisingas būdas skaičiuojant didžiausią skaičių saraše, pradinei dėžutei (JS kode - let max = -Infinity;) panaudoti -Infinity vertę
-``js 
+```js 
 function didziausiasSkaiciusSarase(skc) {
     if (typeof skc === 'string') {
     return 'Pateikta netinkamo tipo reikšmė.';
@@ -26,4 +26,4 @@ console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
 console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
 console.log( didziausiasSkaiciusSarase( 'pomidoras' ) );
 console.log( didziausiasSkaiciusSarase( [] ) );
-``
+```
