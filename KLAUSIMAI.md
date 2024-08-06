@@ -4,7 +4,7 @@
 ```js
 const greet = () => "hello world!";
 ```
-## Idedu iskarpa is namu darbo. Ar teisingas sprendimas?  Kas keista, jog ivestis pirmose eilutese atrodo teisinga, bet paskutines dvi eilutes liko nepakitusios? Atrodo turetu ir paskutines eilutes gaut -15 nuo musu skaiciuotu rezultatu anksciau
+## Idedu iskarpa is namu darbo. Ar teisingas sprendimas?  Kas keista, jog isvestis pirmose eilutese atrodo teisinga, bet paskutines dvi eilutes liko nepakitusios? Atrodo turetu ir paskutines eilutes gaut -15 nuo musu skaiciuotu rezultatu anksciau
 
 ```js
     let sum = 0;
