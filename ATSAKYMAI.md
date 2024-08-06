@@ -1,5 +1,34 @@
 # ATS
 
+## ar teisingas būdas skaičiuojant didžiausią skaičių saraše, pradinei dėžutei (JS kode - let max = -Infinity;) panaudoti -Infinity vertę?
+```js 
+function didziausiasSkaiciusSarase(skc) {
+    if (typeof skc === 'string') {
+    return 'Pateikta netinkamo tipo reikšmė.';
+    }
+    if (skc.length === 0) {
+        return 'Pateiktas sąrašas negali būti tuščias.';
+    }
+  let max = -Infinity;
+    for (let i = 0; i <= skc.length; ++i) {
+    if (skc[i] > max) {
+        max = skc[i];
+    }
+  }
+  return max;
+}
+
+
+console.log( didziausiasSkaiciusSarase( [ 1 ] ) );
+console.log( didziausiasSkaiciusSarase( [ 1, 2, 3 ] ) );
+console.log( didziausiasSkaiciusSarase( [ -5, 78, 14, 0, 18 ] ) )
+console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
+console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
+console.log( didziausiasSkaiciusSarase( 'pomidoras' ) );
+console.log( didziausiasSkaiciusSarase( [] ) );
+```
+
+
 ## Kai bandau importuotis funkciją kuri dirba su masyvu kuriame yra objektai. Importuota funkcija neatpažįsta masyvo tame faile kuriame yra importuota. O veikai tada jei tą masyvą įkeliu į tą patį faile kur aprašyta funkcija. Gaunasi jog išsitraukiu tik rezultatą iš kito failo. O noriu jog aprašyta funkciją, importavus į darbinį failą kuriame yra masyvas su juo atlikų skaičiavimus.
 
 ## Kaip reikia padaryta tuscia funkcija kuri islogina false?
