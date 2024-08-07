@@ -1,33 +1,110 @@
 # ATS
 
+## Idedu iskarpa is namu darbo. Ar teisingas sprendimas? Kas keista, jog isvestis pirmose eilutese atrodo teisinga, bet paskutines dvi eilutes liko nepakitusios? Atrodo turetu ir paskutines eilutes gaut -15 nuo musu skaiciuotu rezultatu anksciau
+
+```js
+    let sum = 0;
+    if (start === 0) {
+        sum = end * (end + 1) / 2;
+    } else if (end === 0) {
+        sum = start * (start - 1) / 2;
+    } else if (start < 0 && end > 0) {
+        sum = end * (end + 1) / 2;
+        sum += start * (start - 1) / 2;
+    } else if (start < 0 && end < 0) {
+        sum = start * (start - 1) / 2;
+        sum -= end * (end - 1) / 2;
+    } else if (start > 0 && end > 0) {
+        sum = end * (end + 1) / 2;
+        sum -= start * (start + 1) / 2;
+    }
+    return sum;
+
+Ivestis
+
+console.log(rangeSum(-10, -5));
+console.log(rangeSum(-100, -5));
+console.log(rangeSum(-1000, -5));
+console.log(rangeSum(-10_000, -5));
+console.log(rangeSum(-100_000, -5));
+console.log(rangeSum(-100_000_000, -5));
+console.log(rangeSum(-1_000_000_000, -5));
+console.log(rangeSum(-10_000_000_000, -5));
+
+console.log(rangeSum(5, 10));
+console.log(rangeSum(5, 100));
+console.log(rangeSum(5, 1000));
+console.log(rangeSum(5, 10_000));
+console.log(rangeSum(5, 100_000));
+console.log(rangeSum(5, 100_000_000));
+console.log(rangeSum(5, 1_000_000_000));
+console.log(rangeSum(5, 10_000_000_000));
+
+ISVESTIS
+
+40
+5035
+500485
+50004985
+5000049985
+5000000049999985
+500000000500000000
+50000000005000000000
+40
+5035
+500485
+50004985
+5000049985
+5000000049999985
+500000000500000000
+50000000005000000000
+Completed running './uzd/suma-intervale.js'
+```
+
+## Kas negerai su kodu? Ant kompo su VSC skaiciuja gerai, bet codewars testo nepraeina.
+
+function sumOfPositives(arr) {
+arr = arr.filter(number => number >0);  
+ return arr.reduce((a,b) => a + b, 0);
+}
+
+    ReferenceError: positiveSum is not defined
+    at Context.<anonymous> (test.js:34:14)
+    at process.processImmediate (node:internal/timers:471:21)
+
+## Ar tai supaprastinta funkcija? () atitinka param, => atitinka return?
+
+```js
+const greet = () => 'hello world!';
+```
+
 ## ar teisingas būdas skaičiuojant didžiausią skaičių saraše, pradinei dėžutei (JS kode - let max = -Infinity;) panaudoti -Infinity vertę?
-```js 
+
+```js
 function didziausiasSkaiciusSarase(skc) {
     if (typeof skc === 'string') {
-    return 'Pateikta netinkamo tipo reikšmė.';
+        return 'Pateikta netinkamo tipo reikšmė.';
     }
     if (skc.length === 0) {
         return 'Pateiktas sąrašas negali būti tuščias.';
     }
-  let max = -Infinity;
+    let max = -Infinity;
     for (let i = 0; i <= skc.length; ++i) {
-    if (skc[i] > max) {
-        max = skc[i];
+        if (skc[i] > max) {
+            max = skc[i];
+        }
     }
-  }
-  return max;
+    return max;
 }
 
-
-console.log( didziausiasSkaiciusSarase( [ 1 ] ) );
-console.log( didziausiasSkaiciusSarase( [ 1, 2, 3 ] ) );
-console.log( didziausiasSkaiciusSarase( [ -5, 78, 14, 0, 18 ] ) )
-console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
-console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
-console.log( didziausiasSkaiciusSarase( 'pomidoras' ) );
-console.log( didziausiasSkaiciusSarase( [] ) );
+console.log(didziausiasSkaiciusSarase([1]));
+console.log(didziausiasSkaiciusSarase([1, 2, 3]));
+console.log(didziausiasSkaiciusSarase([-5, 78, 14, 0, 18]));
+console.log(didziausiasSkaiciusSarase([69, 69, 69, 69, 66]));
+console.log(didziausiasSkaiciusSarase([-1, -2, -3, -4, -5, -6, -7, -8]));
+console.log(didziausiasSkaiciusSarase('pomidoras'));
+console.log(didziausiasSkaiciusSarase([]));
 ```
-
 
 ## Kai bandau importuotis funkciją kuri dirba su masyvu kuriame yra objektai. Importuota funkcija neatpažįsta masyvo tame faile kuriame yra importuota. O veikai tada jei tą masyvą įkeliu į tą patį faile kur aprašyta funkcija. Gaunasi jog išsitraukiu tik rezultatą iš kito failo. O noriu jog aprašyta funkciją, importavus į darbinį failą kuriame yra masyvas su juo atlikų skaičiavimus.
 
