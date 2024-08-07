@@ -70,4 +70,12 @@ Completed running './uzd/suma-intervale.js'
 
 
 ```
+## Kas negerai su kodu? Ant kompo su VSC skaiciuja gerai, bet codewars testo nepraeina.
+   function sumOfPositives(arr) {
+        arr = arr.filter(number => number >0);    
+        return arr.reduce((a,b) => a + b, 0);
+    }
 
+    ReferenceError: positiveSum is not defined
+    at Context.<anonymous> (test.js:34:14)
+    at process.processImmediate (node:internal/timers:471:21)
