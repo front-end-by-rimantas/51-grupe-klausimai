@@ -1,3 +1,3 @@
 # 51 grupės klausimai
 
-## Kodėl iškėlus validateArr funkciją į atskira failą, ji nebevikia per shoppingList? (https://github.com/ZydrunasK/prekiu-krepselis);
+## Kodėl iškėlus validateArr funkciją į atskira failą, ji nebeveikia per shoppingList? (https://github.com/ZydrunasK/prekiu-krepselis);
