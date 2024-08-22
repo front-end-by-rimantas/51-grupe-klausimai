@@ -1,5 +1,31 @@
 # ATS
 
+## Kodėl iškėlus validateArr funkciją į atskira failą, ji nebeveikia per shoppingList? (https://github.com/ZydrunasK/prekiu-krepselis);
+
+```js
+export function validateArr(arr) {
+    if (!Array.isArray(arr)) {
+        return 'Duok array!!!';
+    }
+    if (arr.length === 0) {
+        return 'Šiuo metu, jūsų prekių krepšelis yra tuščias.';
+    }
+
+    return true;
+}
+
+export function shoppingList(arr) {
+    const error = validateArr(arr);
+    if (error !== true) {
+        return error;
+    }
+
+    return 'OK';
+}
+
+shoppingList(48524652);
+```
+
 ## Ar butu galima kazkaip sutrumpinti toki cikla?
 
 ```js
