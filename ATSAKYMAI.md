@@ -1,5 +1,19 @@
 # ATS
 
+## Kodėl meta "TypeError: Cannot read properties of undefined (reading 'split')"?
+
+```js
+String.prototype.toAlternatingCase = function (str) {
+    const rev = [];
+    for (const ltr of str.split('')) {
+        ltr === ltr.toUpperCase()
+            ? rev.push(ltr.toLowerCase())
+            : rev.push(ltr.toUpperCase());
+    }
+    return rev.join;
+};
+```
+
 ## Kodėl iškėlus validateArr funkciją į atskira failą, ji nebeveikia per shoppingList? (https://github.com/ZydrunasK/prekiu-krepselis);
 
 ```js
