@@ -28,4 +28,10 @@ function App() {
 
 export default App;
 ```
-## Kodėl publishinus puslapy sukurtą su REACT githube jis yra tuščias? kaip padaryti, kad veiktų?
+## Publishinus puslapy sukurtą su REACT githube kol nepakeitus contento puslapis veikia. Bet kai sudedu savo rašytą kodą deployment nebepavyksta. Gaunu tokią klaidą. Kaip paleisti REACT puslapy githube teisingai?
+Annotations
+1 error and 1 warning
+Build
+Process completed with exit code 1.
+Build
+The following actions use a deprecated Node.js version and will be forced to run on node20: actions/checkout@v3, actions/setup-node@v3. For more info: https://github.blog/changelog/2024-03-07-github-actions-all-actions-will-run-on-node20-instead-of-node16-by-default/
