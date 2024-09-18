@@ -1,5 +1,7 @@
 # ATS
 
+## Skirtumas tarp npm ir npx?
+
 ## Kodėl paleidus funkcija play iš naujo su kitu mygtuku ji elgiasi netaip kaip numatyta? [link](https://github.com/ZydrunasK/block-adventure)
 
 ## Publishinus puslapy sukurtą su REACT githube kol nepakeitus contento puslapis veikia. Bet kai sudedu savo rašytą kodą deployment nebepavyksta. Gaunu tokią klaidą. Kaip paleisti REACT puslapy githube teisingai?

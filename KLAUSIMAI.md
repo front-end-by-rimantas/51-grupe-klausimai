@@ -1,5 +1,5 @@
 # 51 grupės klausimai
-## Skirtumas tarp npm ir npx?
+
 ## Div'ai overlapina vienas kitą. Gaunasi išsipiešia eilutė ir ant tos eilutės piešiasi visi stulpeliai. Ir gaunasi kiekvienam taške po du div. Any tips, kaip tai išpręsti?
 
 ```js
