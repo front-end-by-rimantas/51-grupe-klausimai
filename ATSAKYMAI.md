@@ -1,5 +1,7 @@
 # ATS
 
+## ![Screenshot from 2024-10-14 19-09-04](https://github.com/user-attachments/assets/fd4f6e08-f9fa-46d2-8c02-c400780ea33f)
+
 ## Kaip reikia užpildyti visus empty items su ta pačia reikšme? pvz "b"
 
 ![image](https://github.com/user-attachments/assets/60b0c26a-3a94-4eec-a6d0-4637f24ac596)
